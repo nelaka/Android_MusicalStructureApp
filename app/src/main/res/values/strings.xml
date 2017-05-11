@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">MusicalStructureApp</string>
+    <string name="app_name">Delapanta\'s Music Player</string>
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_nowplay">Now playing!</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_songs">Songs</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_artists">Artists</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_playlists">Playlists</string>
+
 </resources>

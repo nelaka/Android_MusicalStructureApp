@@ -9,28 +9,24 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/songs"
+        android:id="@+id/song1"
         style="@style/CategoryStyle"
         android:background="@color/category_songs"
-        android:text="Songs" />
+        android:drawableLeft="@drawable/thinkingout_s"
+        android:drawablePadding="8dp"
+        android:text="Thinking Out Loud!" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
 
     <TextView
-        android:id="@+id/artists"
+        android:id="@+id/song2"
         style="@style/CategoryStyle"
-        android:background="@color/category_artists"
-        android:text="Artists" />
-
-    <TextView
-        android:id="@+id/albums"
-        style="@style/CategoryStyle"
-        android:background="@color/category_albums"
-        android:text="Albums" />
-
-    <TextView
-        android:id="@+id/playlists"
-        style="@style/CategoryStyle"
-        android:background="@color/category_playlists"
-        android:text="Playlists" />
+        android:background="@color/category_songs"
+        android:drawableLeft="@drawable/loosechange_s"
+        android:drawablePadding="8dp"
+        android:text="Loose change" />
 
 
 </LinearLayout>

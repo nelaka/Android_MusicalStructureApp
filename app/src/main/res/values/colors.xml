@@ -3,27 +3,35 @@
 
     <!-- Primary color of the app (shown in the app bar) -->
     <color name="colorPrimary">#607D8B</color>
+
     <!-- Primary dark color of the app (shown in the status bar) -->
-    <color name="colorPrimaryDark">#455A64</color>
-    <color name="colorPrimaryLight">#CFD8DC</color>
+    <color name="colorPrimaryDark">#616161</color>
+    <color name="colorPrimaryLight">#9bc5c3</color>
     <color name="colorAccent">#9E9E9E</color>
     <color name="colorPrimaryText">#212121</color>
     <color name="colorSecondaryText">#757575</color>
     <color name="colorIcons">#FFFFFF</color>
     <color name="colorDivider">#BDBDBD</color>
-    <!-- Background color for app -->
-    <color name="tan_background">#20002c</color>
+    <color name="gradient_start_color">@color/colorPrimaryDark</color>
+    <color name="gradient_end_color">@color/colorPrimaryLight</color>
 
-    <!-- Background color for the numbers category -->
+
+    <!-- Background color for app -->
+    <!--  <color name="tan_background">#20002c</color>
+  -->
+    <!-- Background color for the songs category -->
+    <color name="category_nowplay">#ffe57f</color>
+
+    <!-- Background color for the songs category -->
     <color name="category_songs">#ffe57f</color>
 
-    <!-- Background color for the family members category -->
+    <!-- Background color for the albums category -->
     <color name="category_albums">#ffd740</color>
 
-    <!-- Background color for the colors category -->
+    <!-- Background color for the artists category -->
     <color name="category_artists">#ffc400</color>
 
-    <!-- Background color for the phrases category -->
-    <color name="category_playlist">#ffab00</color>
+    <!-- Background color for the playlists category -->
+    <color name="category_playlists">#ffab00</color>
 </resources>
 
