@@ -15,16 +15,17 @@
         android:text="Songs" />
 
     <TextView
+        android:id="@+id/albums"
+        style="@style/CategoryStyle"
+        android:background="@color/category_albums"
+        android:text="Albums" />
+
+    <TextView
         android:id="@+id/artists"
         style="@style/CategoryStyle"
         android:background="@color/category_artists"
         android:text="Artists" />
 
-    <TextView
-        android:id="@+id/albums"
-        style="@style/CategoryStyle"
-        android:background="@color/category_albums"
-        android:text="Albums" />
 
     <TextView
         android:id="@+id/playlists"

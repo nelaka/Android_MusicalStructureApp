@@ -2,36 +2,37 @@
 <resources>
 
     <!-- Primary color of the app (shown in the app bar) -->
-    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimary">#9eaaaa</color>
 
     <!-- Primary dark color of the app (shown in the status bar) -->
-    <color name="colorPrimaryDark">#616161</color>
-    <color name="colorPrimaryLight">#9bc5c3</color>
-    <color name="colorAccent">#9E9E9E</color>
-    <color name="colorPrimaryText">#212121</color>
-    <color name="colorSecondaryText">#757575</color>
-    <color name="colorIcons">#FFFFFF</color>
-    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorPrimaryDark">#707b7b</color>
+    <color name="colorPrimaryLight">#cfdcdc</color>
+
+    <color name="colorPrimaryText">#0a0909</color>
+    <color name="colorSecondary">#edbac6</color>
+    <color name="colorSecondaryLight">#ffedf9</color>
+    <color name="colorSecondaryDark">#ba8a95</color>
+    <color name="colorSecondaryText">#252b2b</color>
+
+    <color name="colorIcons">@color/colorSecondary</color>
+    <color name="colorDivider">@color/colorSecondary</color>
     <color name="gradient_start_color">@color/colorPrimaryDark</color>
     <color name="gradient_end_color">@color/colorPrimaryLight</color>
 
 
-    <!-- Background color for app -->
-    <!--  <color name="tan_background">#20002c</color>
-  -->
     <!-- Background color for the songs category -->
-    <color name="category_nowplay">#ffe57f</color>
+    <color name="category_nowplay">@color/colorPrimaryLight</color>
 
     <!-- Background color for the songs category -->
-    <color name="category_songs">#ffe57f</color>
-
-    <!-- Background color for the albums category -->
-    <color name="category_albums">#ffd740</color>
+    <color name="category_songs">@color/colorPrimary</color>
 
     <!-- Background color for the artists category -->
-    <color name="category_artists">#ffc400</color>
+    <color name="category_artists">@color/colorPrimary</color>
+
+    <!-- Background color for the albums category -->
+    <color name="category_albums">@color/colorPrimaryLight</color>
 
     <!-- Background color for the playlists category -->
-    <color name="category_playlists">#ffab00</color>
+    <color name="category_playlists">@color/colorPrimaryLight</color>
 </resources>
 

@@ -14,7 +14,7 @@
         android:src="@drawable/thinkingout" />
 
     <ImageButton
-        android:layout_width="56dp"
+        android:layout_width="0dp"
         android:layout_height="56dp"
         android:background="@drawable/fab"
         android:src="@drawable/plus" />
@@ -35,7 +35,9 @@
         <ImageButton
             android:layout_width="64dp"
             android:layout_height="64dp"
+
             android:background="@drawable/fab"
+            android:elevation="6dp"
             android:src="@drawable/play" />
 
         <ImageView
