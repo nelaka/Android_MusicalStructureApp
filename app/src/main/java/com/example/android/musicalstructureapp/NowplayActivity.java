@@ -3,10 +3,6 @@ package com.example.android.musicalstructureapp;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-/**
- * Created by nela_ on 5/11/2017.
- */
-
 public class NowplayActivity extends AppCompatActivity {
 
     @Override

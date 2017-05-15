@@ -6,33 +6,28 @@
 
     <!-- Primary dark color of the app (shown in the status bar) -->
     <color name="colorPrimaryDark">#707b7b</color>
-    <color name="colorPrimaryLight">#cfdcdc</color>
 
+    <color name="colorPrimaryLight">#cfdcdc</color>
     <color name="colorPrimaryText">#0a0909</color>
     <color name="colorSecondary">#edbac6</color>
     <color name="colorSecondaryLight">#ffedf9</color>
     <color name="colorSecondaryDark">#ba8a95</color>
     <color name="colorSecondaryText">#252b2b</color>
-
     <color name="colorIcons">@color/colorSecondary</color>
-    <color name="colorDivider">@color/colorSecondary</color>
-    <color name="gradient_start_color">@color/colorPrimaryDark</color>
-    <color name="gradient_end_color">@color/colorPrimaryLight</color>
 
-
-    <!-- Background color for the songs category -->
-    <color name="category_nowplay">@color/colorPrimaryLight</color>
+    <color name="gradient_start_color">@color/colorSecondaryLight</color>
+    <color name="gradient_end_color">@color/colorPrimaryDark</color>
 
     <!-- Background color for the songs category -->
-    <color name="category_songs">@color/colorPrimary</color>
-
-    <!-- Background color for the artists category -->
-    <color name="category_artists">@color/colorPrimary</color>
+    <color name="category_songs">@color/colorSecondaryLight</color>
 
     <!-- Background color for the albums category -->
     <color name="category_albums">@color/colorPrimaryLight</color>
 
-    <!-- Background color for the playlists category -->
-    <color name="category_playlists">@color/colorPrimaryLight</color>
+    <!-- Background color for the artists category -->
+    <color name="category_artists">@color/colorSecondaryDark</color>
+
+    <!-- Background color for the nowplaying elements -->
+    <color name="category_nowplay">@color/colorPrimaryLight</color>
 </resources>
 

@@ -1,18 +1,34 @@
 <resources>
+
     <string name="app_name">Delapanta\'s Music Player</string>
-    <!-- Category name for phrases [CHAR LIMIT=20] -->
+
     <string name="category_nowplay">Now playing!</string>
-
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
     <string name="category_songs">Songs</string>
-
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
     <string name="category_albums">Albums</string>
-
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_artists">Artists</string>
 
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
-    <string name="category_playlists">Playlists</string>
+    <!-- Descriptions of screens -->
+    <string name="activity_main_description">The app plays music from the device \'s library.
+        This screen is the Main Screen. Activities that can be reached with intents: songs list,
+        albums list, artists list (not implemented yet), etc. Best practice is to rewrite this view
+        with ListView and ArrayAdapter"
+    </string>
+    <string name="activity_songs_description">The app plays music from the device \'s library.
+        This screen is the Songs Screen. Activities that can be reached with intents: song1, song2
+        (not implemented yet). Best practice is to rewrite this view with ListView and ArrayAdapter"
+    </string>
+    <string name="activity_albums_description">The app plays music from the device \'s library.
+        This screen is the Albums Screen (now only the layout). Best practice is to rewrite this
+        view with ListView or GridView and ArrayAdapter"
+    </string>
+    <string name="activity_nowplay_description">The app plays music from the device \'s library.
+        This screen is the Playing now Screen, which is reached by selecting the first song from
+        Songs category. It contains a fab icon for adding this song to a playlist (not functioning
+        yet), a SeekBar and buttons for play/pause and skip next or previous songs."
+    </string>
+
+    <!-- List of songs -->
+    <string name="song1">Thinking Out Loud!</string>
+    <string name="song2">Loose change</string>
 
 </resources>

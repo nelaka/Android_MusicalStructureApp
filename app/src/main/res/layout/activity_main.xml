@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
     android:background="@drawable/background"
     android:orientation="vertical"
-    android:padding="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <TextView
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/djgirl" />
+
+        <TextView
         android:id="@+id/songs"
         style="@style/CategoryStyle"
+
         android:background="@color/category_songs"
         android:text="Songs" />
 
@@ -26,12 +37,11 @@
         android:background="@color/category_artists"
         android:text="Artists" />
 
-
     <TextView
-        android:id="@+id/playlists"
-        style="@style/CategoryStyle"
-        android:background="@color/category_playlists"
-        android:text="Playlists" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_description" />
+    </LinearLayout>
 
 
-</LinearLayout>
+</ScrollView>

@@ -1,82 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:fillViewport="true">
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="vertical">
 
-        <ImageButton
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/album_item_height"
+            android:orientation="horizontal">
 
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="fitXY"
+            <ImageView
+                style="@style/ImageButton"
+                android:src="@drawable/theorangeroom" />
 
-            android:src="@drawable/theorangeroom" />
+            <ImageView
+                style="@style/ImageButton"
+                android:src="@drawable/shapeofyou" />
 
-        <ImageButton
+        </LinearLayout>
 
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="fitXY"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/album_item_height"
+            android:orientation="horizontal">
 
-            android:src="@drawable/shapeofyou" />
+            <ImageView
+                style="@style/ImageButton"
+                android:src="@drawable/afirelove" />
+
+            <ImageView
+                style="@style/ImageButton"
+                android:src="@drawable/xalbum" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/album_item_height"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageButton"
+                android:src="@drawable/songsiwrote" />
+
+            <ImageView
+                style="@style/ImageButton"
+                android:src="@drawable/loosechange" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_albums_description" />
+
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <ImageButton
-
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="fitXY"
-
-            android:src="@drawable/afirelove" />
-
-        <ImageButton
-
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="fitXY"
-
-            android:src="@drawable/xalbum" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <ImageButton
-
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="fitXY"
-
-            android:src="@drawable/songsiwrote" />
-
-        <ImageButton
-
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="fitXY"
-
-            android:src="@drawable/loosechange" />
-    </LinearLayout>
-
-</LinearLayout>
+</ScrollView>
