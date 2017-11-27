@@ -1,6 +1,9 @@
 # MusicalStructureApp
 
 The app plays music from the user device's library.
+
+This is a project during udacity's nanodegree program courses and it's not fully functional yet.
+
 Available screens:
 <ul>
   <li>Main Screen. 
