@@ -21,3 +21,6 @@ Available screens:
       <li>skip next button</li>
       <li>skip previous button</li></ul></li>
 </ul>
+
+<h2>App's screenshot</h2>
+<img src="screenshots/music_player.png" width="40%"/>
